@@ -23,7 +23,7 @@
         $body .=    "Ticket Type:  $_POST[ticket] \n\n";
 
         //Send email
-        mail( $youremail, "New User Registration", $body, "From:" . $_POST['email'] );
+        mail( 'm.aljobairi@gmail.com', "New User Registration", $body, "From:" . $_POST['email'] );
 
     }
 
